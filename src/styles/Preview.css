@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url(../fonts/Montserrat-Medium.ttf) format('ttf');
+}
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url(../fonts/Montserrat-ExtraBold.ttf) format('ttf');
+}
+
+.preview {
+    height: 1100px;
+    width: 850px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: auto;
+    overflow-y: auto;
+    -webkit-box-shadow: 0 0 5px 2px grey;
+    -moz-box-shadow: 0 0 5px 2px grey;
+    box-shadow: 0 0 10px 2px grey;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.preview-header {
+    background-color: rgb(34, 65, 121);
+    margin-top: 0;
+    min-height: 100px;
+}
+
+.preview-name {
+    font-family: Montserrat-ExtraBold, sans-serif;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 0;
+    color:rgb(255, 255, 255);
+}
+
+.preview-title {
+    font-family: Montserrat-Medium, sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 0;
+    margin-left: 20px;
+    padding: 0;
+    color:rgb(255, 255, 255);
+
+}
+.preview-personal {
+    margin-left: 20px;
+    font-family: Montserrat-Medium, sans-serif;
+
+}
+.preview-main {
+    margin-left: 20px;
+    font-family: Montserrat-Medium, sans-serif;
+    overflow-wrap: break-word;
+
+}
+
+
+.college-item {
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+}
+
+.date {
+    width:20%;
+    overflow-wrap: break-word;
+}
+
+.college-info {
+    width:70%;
+    overflow-wrap: break-word;
+}
+
+.college-info p {
+    margin: 0;
+}
+
+.experience-item {
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+
+}
+
+.job-info {
+    width:70%;
+    overflow-wrap: break-word;
+}
+
+.preview-subtitle {
+    color:rgb(34, 65, 121);
+    font-size: 20px;
+    padding-bottom: 0;
+    margin: 0;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    width: 90%;
+    display: block;
+}
+
+.preview-personal p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.personal-main p{ 
+    font-size: 15px;
+}
+
+#personal-details, #about-me {
+    margin-top: 15px;
+}
+
+#personal-details {
+    margin-bottom: 10px;
+}
+
+
+
+
+

@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url(../fonts/Montserrat-Medium.ttf) format('ttf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+.editor {
+    background-color: rgb(232, 235, 234);
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 1100px;
+    overflow-y: auto;
+    -webkit-box-shadow: 0 0 5px 2px grey;
+    -moz-box-shadow: 0 0 5px 2px grey;
+    box-shadow: 0 0 10px 2px grey;
+    font-family: Montserrat-Medium, sans-serif;
+    font-weight: 100;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width:100%;
+}
+
+.personal-info input {
+    height: 3em;
+    width: 80%;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+
+.education-input-list {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.education-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width:100%;
+}
+.education-inputs input {
+    height: 3em;
+    width :80%;
+}
+
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    align-items: center;
+    width:100%;
+}
+
+.experience-input-list {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experience-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width:100%;
+}
+.experience-inputs input {
+    height: 3em;
+    width :80%;
+}
+
+.pdf-button {
+    background-color: rgb(60, 160, 247);
+    min-height: 40px;
+    margin-top: 40px;
+}
+
+.clear-button {
+    min-height:40px;
+    margin-bottom: 30px;
+}
+button {
+    width: 81%;
+    height:40px;
+    background-color: rgb(49, 46, 46);
+    color:aliceblue;
+    border-radius: 5px ;
+    border-style: none;
+    margin-top: 10px;
+    font-family: Nunito, sans-serif;
+    font-size: 20px;;
+}
+
+button:hover {
+    opacity: .7;
+}
+
+.editor-header {
+    font-size: 20px;
+    width:80%;
+    margin-top: 30px;
+    font-family: Nunito, sans-serif;
+    font-weight: 900;
+}
+
+input {
+    border-style: none;
+    outline-color: rgb(136, 136, 136);
+    border-radius: 5px;
+    padding:3px;
+    padding-left: 10px;
+    font-family: Nunito,sans-serif;
+}
+
+.delete-button {
+    background-color: rgb(240, 61, 16);
+}
+
+.add-button {
+    background-color: green;
+}
