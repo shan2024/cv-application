@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/cv-application/static/css/main.10b81844.chunk.css",
+    "main.js": "/cv-application/static/js/main.1bfc07e0.chunk.js",
+    "main.js.map": "/cv-application/static/js/main.1bfc07e0.chunk.js.map",
+    "runtime-main.js": "/cv-application/static/js/runtime-main.14a45c1f.js",
+    "runtime-main.js.map": "/cv-application/static/js/runtime-main.14a45c1f.js.map",
+    "static/js/2.49b0f7e9.chunk.js": "/cv-application/static/js/2.49b0f7e9.chunk.js",
+    "static/js/2.49b0f7e9.chunk.js.map": "/cv-application/static/js/2.49b0f7e9.chunk.js.map",
+    "index.html": "/cv-application/index.html",
+    "static/css/main.10b81844.chunk.css.map": "/cv-application/static/css/main.10b81844.chunk.css.map",
+    "static/js/2.49b0f7e9.chunk.js.LICENSE.txt": "/cv-application/static/js/2.49b0f7e9.chunk.js.LICENSE.txt",
+    "static/media/Preview.css": "/cv-application/static/media/Montserrat-Medium.e2d60bc4.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14a45c1f.js",
+    "static/js/2.49b0f7e9.chunk.js",
+    "static/css/main.10b81844.chunk.css",
+    "static/js/main.1bfc07e0.chunk.js"
+  ]
+}
